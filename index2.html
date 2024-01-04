@@ -64,10 +64,10 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="#nosotros" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Nosotros</span></a></li>
-          <li><a href="#servicios" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
-          <li><a href="#ventajas" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Ventajas</span></a></li>
           <li><a href="#flota" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Flota</span></a></li>
-          <li><a href="#clientes" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Clientes</span></a></li>          
+          <li><a href="#ventajas" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Ventajas</span></a></li>
+          <li><a href="#servicios" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
+          <li><a href="#clientes" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Clientes</span></a></li>
           <li><a href="#testimonios" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Testimonios</span></a></li>
           <li><a href="#contacto" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
         </ul>
@@ -143,65 +143,115 @@
       </div>
     </section><!-- End Nosotros Section -->
 
-    <!-- ======= Section - Servicios ======= -->
-    <section id="servicios" class="services section-bg">
+    <!-- ======= Section - Flota ======= -->
+    <section id="flota" class="facts">
       <div class="container">
 
         <div class="section-title">
-          <h2>Servicios</h2>
-          <p> </p>
+          <h2>Flota</h2>
+          <p>Contamos con una amplia flota, con la capacidad de trasladar hasta 800 personas en simultaneo(*)</p>
         </div>
 
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Van</strong> 8 - 10 - 11 pax</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Buses</strong> 44 - 45 pax</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Minibuses</strong> 15 - 19 pax</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>SUV</strong> 6 pax</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel -->
+        <div id="autos" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="1500">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#autos" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#autos" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#autos" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#autos" data-bs-slide-to="3"></button>
+          </div>
+          
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/1.jpg" alt="SUV" class="d-block" width="450px" height="300px">
+            </div>
+            <div class="carousel-item imgnormalizada ">
+              <img src="assets/img/2.jpg" alt="VAN" class="d-block" width="450px" height="300px">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/3.jpg" alt="Minibus" class="d-block" width="450px" height="300px">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/4.jpg" alt="Bus" class="d-block" width="450px" height="300px">
+            </div>
+          </div>
+          
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#autos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#autos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Transporte de Pasajeros</a></h4>
-            <p class="description">Ofrecemos servicios de traslado de personal para empresas en convenio y particulares.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Traslado de Ejecutivos</a></h4>
-            <p class="description">Buscamos satisfacer las necesidades de las empresas en el traslado de sus ejecutivos y clientes particulares.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Traslados al Aeropuerto</a></h4>
-            <p class="description">Ofrecemos servicios de traslado de pasajeros desde y hacia el aeropuerto de Santiago Arturo Merino Benítez.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Traslado para Eventos</a></h4>
-            <p class="description">Ofrecemos servicios de traslado de personal para empresas o personas particulares a eventos, exposiciones o fiestas.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Viajes a la Nieve</a></h4>
-            <p class="description">Viajes a la nieve dentro y fuera de Santiago</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Traslados al Casino</a></h4>
-            <p class="description">Ofrecemos servicios de traslado desde y hacia casinos: Sun Monticello y Enjoy</p>
-          </div>
+          <p>Nuestros conductores son profesionales con basta experiencia en el traslado de pasajeros se encuentran entrenados para resolver cualquier imprevisto en ruta, 
+            nuestros equipos de telefonistas y coordinadores se encuentran altamente capacitados para resolver sus dudas y con experiencia logística para entregar un 
+            resultado óptimo de acuerdo con su solicitud, al contratarnos usted no sólo mejorará su gestión, además ganará un experimentado equipo humano en el cual podrá confiar.</p>
+          <p>(*) Entre propios y convenios con terceros</p>
         </div>
-
       </div>
-    </section><!-- End Servicios Section -->
+    </section><!-- End Flota Section -->
 
     <!-- ======= Section - Ventajas ======= -->
-    <section id="ventajas" class="resume">
+    <section id="ventajas" class="resume section-bg">
       <div class="container">
 
         <div class="section-title">
           <h2>Ventajas de Elegirnos</h2>
-          <p>Potenciando el éxito empresarial desde 2008. Con un historial que abarca más de 2 millones de viajes realizados, nuestra experiencia 
-            sobresale en diversos modelos de negocios vinculados a servicios de transporte de personal. Hemos demostrado la implementación exitosa de estas soluciones, 
-            adaptándonos a las necesidades específicas de nuestros clientes a lo largo de varios años. Descubre cómo nuestras operaciones destacan para impulsar el crecimiento 
-            y la eficiencia de tu empresa.</p>
+          <p>Descubre cómo nuestros servicios destacan para impulsar el éxito de tu empresa.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Experiencia</h3>
+            <div class="resume-item pb-0">
+              <h5>2008 - Presente</h5>
+              <p><em>Más de 2 millones de viajes realizados</em></p>
+              <p><em>Experiencia en distintos modelos de negocio asociados a servicios de transporte de personal de acuerdo con las necesidades de nuestros clientes y que 
+                hemos implementado por varios años en forma exitosa.</em></p>
+            </div>
 
             <h3 class="resume-title">Valor Agregado</h3>
             <div class="resume-item"><!-- GPS cambiar-->
@@ -252,147 +302,129 @@
 
       </div>
     </section><!-- End Ventajas Section -->
- 
-    <!-- ======= Section - Flota ======= -->
-    <section id="flota" class="facts section-bg">
+
+    <!-- ======= Section - Servicios ======= -->
+    <section id="servicios" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Flota</h2>
-          <p>Contamos con una amplia flota, con la capacidad de trasladar hasta 800 personas en simultaneo (*)</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Van</strong> 8 - 10 - 11 pax</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Buses</strong> 44 - 45 pax</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Minibuses</strong> 15 - 19 pax</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>SUV</strong> 6 pax</p>
-            </div>
-          </div>
-
+          <h2>Servicios</h2>
+          <p> </p>
         </div>
 
         <div class="row">
-          <p>Nuestros conductores son profesionales con basta experiencia en el traslado de pasajeros se encuentran entrenados para resolver cualquier imprevisto en ruta, 
-            nuestros equipos de telefonistas y coordinadores se encuentran altamente capacitados para resolver sus dudas y con experiencia logística para entregar un 
-            resultado óptimo de acuerdo con su solicitud, al contratarnos usted no sólo mejorará su gestión, además ganará un experimentado equipo humano en el cual podrá confiar.</p>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Transporte de Pasajeros</a></h4>
+            <p class="description">Ofrecemos servicios de traslado de personal para empresas en convenio y particulares.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Traslado de Ejecutivos</a></h4>
+            <p class="description">Buscamos satisfacer las necesidades de las empresas en el traslado de sus ejecutivos y clientes particulares.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Traslados al Aeropuerto</a></h4>
+            <p class="description">Ofrecemos servicios de traslado de pasajeros desde y hacia el aeropuerto de Santiago Arturo Merino Benítez.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Traslado para Eventos</a></h4>
+            <p class="description">Ofrecemos servicios de traslado de personal para empresas o personas particulares a eventos, exposiciones o fiestas.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Viajes a la Nieve</a></h4>
+            <p class="description">Viajes a la nieve dentro y fuera de Santiago</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Traslados al Casino</a></h4>
+            <p class="description">Ofrecemos servicios de traslado desde y hacia casinos: Sun Monticello y Enjoy</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Servicios Section -->
+
+    <!-- ======= Section -Clientes ======= -->
+    <section id="clientes" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Nuestros Clientes</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. 
+            Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-transitorio">Transitorios</li>
+              <li data-filter=".filter-permanente">Permanentes</li> 
+            </ul>
+          </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-3 col-md-6 portfolio-item">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
             <div class="portfolio-wrap">
-              <img src="assets/img/1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
             <div class="portfolio-wrap">
-              <img src="assets/img/2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
             <div class="portfolio-wrap">
-              <img src="assets/img/3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-permanente">
             <div class="portfolio-wrap">
-              <img src="assets/img/4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-permanente">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-permanente">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-transitorio">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
         </div>
-       <p>(*) Entre propios y convenios con terceros</p>
-        
-      </div>
-    </section><!-- End Flota Section -->
- 
-    <!-- ======= Section - Clientes ======= -->
-    <section id="clientes" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Nuetros Clientes</h2>
-        </div>       
-
-          <!-- Carousel -->
-        <div id="autos" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="500">
-
-          <!-- Indicators/dots -->
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="3"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="4"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="5"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="6"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="7"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="8"></button>
-            <button type="button" data-bs-target="#autos" data-bs-slide-to="9"></button>
-          </div>
-          
-          <!-- The slideshow/carousel -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/img/portfolio/portfolio-1.jpg" alt="SUV" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item imgnormalizada ">
-              <img src="assets/img/portfolio/portfolio-2.jpg" alt="VAN" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-3.jpg" alt="Minibus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-4.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-5.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-6.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-7.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-8.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/portfolio/portfolio-9.jpg" alt="Bus" class="d-block" width="450px" height="300px">
-            </div>
-          </div>
-          
-        </div>
-       
 
       </div>
     </section><!-- End Clientes Section -->
@@ -417,7 +449,8 @@
                   servicios de traslado proporcionados. Su destacado servicio se caracteriza por su puntualidad, eficiencia y disponibilidad, lo que ha contribuido 
                   significativamente al funcionamiento fluido de nuestra empresa.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> 
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Rodrigo Acevedo</h3>
                 <h4>Gerente de Operaciones - Dominó</h4>
               </div>
@@ -431,6 +464,7 @@
                   ofrecen servicios de alta calidad, brindando seguridad y confiabilidad.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Paola Ferrando Yañez</h3>
                 <h4>Sub Gerente de Desarrollo Organizacional - Banco Internacional</h4>
               </div>
@@ -444,10 +478,37 @@
                   proporcionar a su empresa el servicio de traslado de pasajeros.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>Daniel Leiton</h3>
                 <h4>Gerente de Administración - Acalis Errázuriz</h4>
               </div>
             </div><!-- Fin Testimonio Acalis-->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
 
           </div>
           <div class="swiper-pagination"></div>
